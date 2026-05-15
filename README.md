@@ -10,6 +10,8 @@ Zoom 会議のウィンドウを 60 秒ごとに自動撮影し、曜日 × 限 
 
 対応 OS: macOS 14 Sonoma 以上 (Apple Silicon)
 
+![](./docs/screenshot.png)
+
 ---
 
 ## インストール
