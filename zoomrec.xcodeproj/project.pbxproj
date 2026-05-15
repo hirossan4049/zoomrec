@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B52BBE6164CD0AA4F84F5C /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459D950807CE6369C9AA3E41 /* LibraryStore.swift */; };
+		165222B6887AA3DB543F41AC /* Screenshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0333CC97035F3238F0CE7631 /* Screenshot.swift */; };
+		1BCB09EFBC829989A3800CCE /* zoomrecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2D139E4813AC3F889816AC /* zoomrecApp.swift */; };
+		2A01718476D59AFBDC6542A3 /* ThumbnailItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AA9CA8F1C535EA946F254B /* ThumbnailItem.swift */; };
+		2E800634ACF803A7BD0C9C77 /* DayPeriodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91208E8279B58C0B9E918473 /* DayPeriodCategory.swift */; };
+		30F5040D4BF0D19030273C05 /* CaptureStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC296CA220ADB0B2F86F60B /* CaptureStatusBar.swift */; };
+		49A805312CEE5A131122B217 /* CaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060003EF17515E5FA051EA5 /* CaptureService.swift */; };
+		62BA38FADF0D389516C8BBFB /* SessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6764607ACF0852466A1209F4 /* SessionList.swift */; };
+		64EB7242DC944518D2FA7834 /* Categorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D95E0ADCB75D9028A797F98 /* Categorizer.swift */; };
+		671C8967F9DDC72A23F8E6FC /* ThumbnailGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715379C603302B85B998E881 /* ThumbnailGrid.swift */; };
+		78121AC1B610B2FC94081DC4 /* WindowFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68770887C454BC47D0A180 /* WindowFinder.swift */; };
+		785A6C59A5BEE6FC0EC2BD99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8404546DA300369B0A5B0E /* ContentView.swift */; };
+		8691A9B6A990351D9E8BB200 /* CategorySidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B62C1BEC6DD305F96406D /* CategorySidebar.swift */; };
+		E07015D32FDDA89B3EF5D724 /* PeriodTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CD940D2B572C2DC1B50A8 /* PeriodTable.swift */; };
+		EBD64BC772A70D7B9D810C00 /* DiagnosticsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1890D842FC9D6F5B8468703 /* DiagnosticsSheet.swift */; };
+		FC5A07A46518B8CC05836E9E /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFDD1D06501F53AE43844C /* Weekday.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0333CC97035F3238F0CE7631 /* Screenshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screenshot.swift; sourceTree = "<group>"; };
+		07FFDD1D06501F53AE43844C /* Weekday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
+		1D95E0ADCB75D9028A797F98 /* Categorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categorizer.swift; sourceTree = "<group>"; };
+		2D8404546DA300369B0A5B0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		459D950807CE6369C9AA3E41 /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+		59AA9CA8F1C535EA946F254B /* ThumbnailItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailItem.swift; sourceTree = "<group>"; };
+		5A2D139E4813AC3F889816AC /* zoomrecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoomrecApp.swift; sourceTree = "<group>"; };
+		5A68770887C454BC47D0A180 /* WindowFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowFinder.swift; sourceTree = "<group>"; };
+		6060003EF17515E5FA051EA5 /* CaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureService.swift; sourceTree = "<group>"; };
+		6764607ACF0852466A1209F4 /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		6FAF3541BB73E36CD00265AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		715379C603302B85B998E881 /* ThumbnailGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGrid.swift; sourceTree = "<group>"; };
+		91208E8279B58C0B9E918473 /* DayPeriodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPeriodCategory.swift; sourceTree = "<group>"; };
+		A0D76FDE0B623063BA40EFFF /* zoomrec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoomrec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65B62C1BEC6DD305F96406D /* CategorySidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySidebar.swift; sourceTree = "<group>"; };
+		B1890D842FC9D6F5B8468703 /* DiagnosticsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsSheet.swift; sourceTree = "<group>"; };
+		B20CD940D2B572C2DC1B50A8 /* PeriodTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodTable.swift; sourceTree = "<group>"; };
+		BEC296CA220ADB0B2F86F60B /* CaptureStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureStatusBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		20F1819F83CB2B86C842559B /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				6060003EF17515E5FA051EA5 /* CaptureService.swift */,
+				1D95E0ADCB75D9028A797F98 /* Categorizer.swift */,
+				5A68770887C454BC47D0A180 /* WindowFinder.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		3C8C955D5F911FA54ECF0CB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91208E8279B58C0B9E918473 /* DayPeriodCategory.swift */,
+				B20CD940D2B572C2DC1B50A8 /* PeriodTable.swift */,
+				0333CC97035F3238F0CE7631 /* Screenshot.swift */,
+				07FFDD1D06501F53AE43844C /* Weekday.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6225FA21B9D7669E046A34AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEC296CA220ADB0B2F86F60B /* CaptureStatusBar.swift */,
+				A65B62C1BEC6DD305F96406D /* CategorySidebar.swift */,
+				2D8404546DA300369B0A5B0E /* ContentView.swift */,
+				B1890D842FC9D6F5B8468703 /* DiagnosticsSheet.swift */,
+				6764607ACF0852466A1209F4 /* SessionList.swift */,
+				715379C603302B85B998E881 /* ThumbnailGrid.swift */,
+				59AA9CA8F1C535EA946F254B /* ThumbnailItem.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F7798358BE9105EDDC8C3E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D76FDE0B623063BA40EFFF /* zoomrec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70344F994A8CBB51C5784833 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				459D950807CE6369C9AA3E41 /* LibraryStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		B887A36C7E7820AAD2D40388 = {
+			isa = PBXGroup;
+			children = (
+				EC2E6D74E63891ABA50280B6 /* zoomrec */,
+				6F7798358BE9105EDDC8C3E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC2E6D74E63891ABA50280B6 /* zoomrec */ = {
+			isa = PBXGroup;
+			children = (
+				6FAF3541BB73E36CD00265AA /* Info.plist */,
+				5A2D139E4813AC3F889816AC /* zoomrecApp.swift */,
+				20F1819F83CB2B86C842559B /* Capture */,
+				3C8C955D5F911FA54ECF0CB1 /* Models */,
+				70344F994A8CBB51C5784833 /* Stores */,
+				6225FA21B9D7669E046A34AF /* Views */,
+			);
+			path = zoomrec;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		208F1D57C87D64888C2187DB /* zoomrec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B3988FA9F154478B46EB43 /* Build configuration list for PBXNativeTarget "zoomrec" */;
+			buildPhases = (
+				431B7360724DDC8618B9355F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoomrec;
+			packageProductDependencies = (
+			);
+			productName = zoomrec;
+			productReference = A0D76FDE0B623063BA40EFFF /* zoomrec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BF10DB4EC32654F5D7E0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					208F1D57C87D64888C2187DB = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 542507A4B9E5568890F12E9C /* Build configuration list for PBXProject "zoomrec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				ja,
+			);
+			mainGroup = B887A36C7E7820AAD2D40388;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				208F1D57C87D64888C2187DB /* zoomrec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431B7360724DDC8618B9355F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A805312CEE5A131122B217 /* CaptureService.swift in Sources */,
+				30F5040D4BF0D19030273C05 /* CaptureStatusBar.swift in Sources */,
+				64EB7242DC944518D2FA7834 /* Categorizer.swift in Sources */,
+				8691A9B6A990351D9E8BB200 /* CategorySidebar.swift in Sources */,
+				785A6C59A5BEE6FC0EC2BD99 /* ContentView.swift in Sources */,
+				2E800634ACF803A7BD0C9C77 /* DayPeriodCategory.swift in Sources */,
+				EBD64BC772A70D7B9D810C00 /* DiagnosticsSheet.swift in Sources */,
+				12B52BBE6164CD0AA4F84F5C /* LibraryStore.swift in Sources */,
+				E07015D32FDDA89B3EF5D724 /* PeriodTable.swift in Sources */,
+				165222B6887AA3DB543F41AC /* Screenshot.swift in Sources */,
+				62BA38FADF0D389516C8BBFB /* SessionList.swift in Sources */,
+				671C8967F9DDC72A23F8E6FC /* ThumbnailGrid.swift in Sources */,
+				2A01718476D59AFBDC6542A3 /* ThumbnailItem.swift in Sources */,
+				FC5A07A46518B8CC05836E9E /* Weekday.swift in Sources */,
+				78121AC1B610B2FC94081DC4 /* WindowFinder.swift in Sources */,
+				1BCB09EFBC829989A3800CCE /* zoomrecApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B763AC6DFCE71DCB8A6C1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		30C21E507080E38C7AF3CBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = zoomrec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lh.zoomrec;
+				PRODUCT_NAME = ZoomRec;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8AC485FBDB1E8AD6752160D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		CF8191800D21986AFCD5C3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = zoomrec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.lh.zoomrec;
+				PRODUCT_NAME = ZoomRec;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B3988FA9F154478B46EB43 /* Build configuration list for PBXNativeTarget "zoomrec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C21E507080E38C7AF3CBB8 /* Debug */,
+				CF8191800D21986AFCD5C3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		542507A4B9E5568890F12E9C /* Build configuration list for PBXProject "zoomrec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AC485FBDB1E8AD6752160D7 /* Debug */,
+				1B763AC6DFCE71DCB8A6C1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BF10DB4EC32654F5D7E0EA /* Project object */;
+}
