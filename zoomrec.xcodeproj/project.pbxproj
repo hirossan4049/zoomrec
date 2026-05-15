@@ -20,6 +20,7 @@
 		78121AC1B610B2FC94081DC4 /* WindowFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A68770887C454BC47D0A180 /* WindowFinder.swift */; };
 		785A6C59A5BEE6FC0EC2BD99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8404546DA300369B0A5B0E /* ContentView.swift */; };
 		8691A9B6A990351D9E8BB200 /* CategorySidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65B62C1BEC6DD305F96406D /* CategorySidebar.swift */; };
+		A9F944E7AAA339BA39E8AB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F760A0BCA079775EBA22F74 /* Assets.xcassets */; };
 		E07015D32FDDA89B3EF5D724 /* PeriodTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20CD940D2B572C2DC1B50A8 /* PeriodTable.swift */; };
 		EBD64BC772A70D7B9D810C00 /* DiagnosticsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1890D842FC9D6F5B8468703 /* DiagnosticsSheet.swift */; };
 		FC5A07A46518B8CC05836E9E /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFDD1D06501F53AE43844C /* Weekday.swift */; };
@@ -36,6 +37,7 @@
 		5A68770887C454BC47D0A180 /* WindowFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowFinder.swift; sourceTree = "<group>"; };
 		6060003EF17515E5FA051EA5 /* CaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureService.swift; sourceTree = "<group>"; };
 		6764607ACF0852466A1209F4 /* SessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionList.swift; sourceTree = "<group>"; };
+		6F760A0BCA079775EBA22F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAF3541BB73E36CD00265AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		715379C603302B85B998E881 /* ThumbnailGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailGrid.swift; sourceTree = "<group>"; };
 		91208E8279B58C0B9E918473 /* DayPeriodCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPeriodCategory.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		EC2E6D74E63891ABA50280B6 /* zoomrec */ = {
 			isa = PBXGroup;
 			children = (
+				6F760A0BCA079775EBA22F74 /* Assets.xcassets */,
 				6FAF3541BB73E36CD00265AA /* Info.plist */,
 				5A2D139E4813AC3F889816AC /* zoomrecApp.swift */,
 				20F1819F83CB2B86C842559B /* Capture */,
@@ -127,6 +130,7 @@
 			buildConfigurationList = 13B3988FA9F154478B46EB43 /* Build configuration list for PBXNativeTarget "zoomrec" */;
 			buildPhases = (
 				431B7360724DDC8618B9355F /* Sources */,
+				8C7274F47DE0B821F302BF3F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +176,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7274F47DE0B821F302BF3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F944E7AAA339BA39E8AB36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		431B7360724DDC8618B9355F /* Sources */ = {
