@@ -22,7 +22,7 @@ struct ContentView: View {
             CaptureStatusBar()
         }
         .sheet(isPresented: $showingNewCategory) {
-            NewCategorySheet()
+            CategoryFormSheet()
         }
         .onChange(of: selectedCategoryId) { _, _ in
             selectedDate = nil
