@@ -7,8 +7,9 @@ Zoom 会議のウィンドウを 60 秒ごとに自動撮影し、曜日 × 限 
 - 整理: 撮影時刻と曜日から時間割スロット (1〜7 限) を自動判定してカテゴリへ分類
 - 補講: スクショ単位／日付単位で別カテゴリへ移動可能
 - D&D: サムネイルを他アプリ (Slack / ブラウザ / Finder) へドラッグして PNG 受け渡し
+- 字幕: Zoom 音声をリアルタイム文字起こし (Apple 純正 Speech / オンデバイス)。日本語・英語を切替でき、英語時は日本語訳も併記。スクショ機能とは独立して開始／停止可能
 
-対応 OS: macOS 14 Sonoma 以上 (Apple Silicon)
+対応 OS: macOS 15 Sequoia 以上 (Apple Silicon)
 
 ![](./docs/screenshot.png)
 

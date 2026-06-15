@@ -27,7 +27,9 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>NSScreenRecordingUsageDescription</key>
-	<string>Zoom 授業のスクリーンショット取得に使用します。</string>
+	<string>Zoom 授業のスクリーンショット取得・音声字幕に使用します。</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Zoom 授業音声のリアルタイム文字起こしに使用します。</string>
 	<key>NSSupportsAutomaticTermination</key>
 	<false/>
 	<key>NSSupportsSuddenTermination</key>

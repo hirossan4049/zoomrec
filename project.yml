@@ -1,7 +1,7 @@
 name: zoomrec
 options:
   deploymentTarget:
-    macOS: "14.0"
+    macOS: "15.0"
   bundleIdPrefix: io.lh
   createIntermediateGroups: true
   developmentLanguage: ja
@@ -37,7 +37,8 @@ targets:
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)
         LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
         NSHighResolutionCapable: true
-        NSScreenRecordingUsageDescription: "Zoom 授業のスクリーンショット取得に使用します。"
+        NSScreenRecordingUsageDescription: "Zoom 授業のスクリーンショット取得・音声字幕に使用します。"
+        NSSpeechRecognitionUsageDescription: "Zoom 授業音声のリアルタイム文字起こしに使用します。"
         NSPrincipalClass: NSApplication
         NSSupportsAutomaticTermination: false
         NSSupportsSuddenTermination: false
