@@ -4,6 +4,7 @@ import SwiftUI
 struct ZoomRecApp: App {
     @StateObject private var store: LibraryStore
     @StateObject private var capture: CaptureService
+    @StateObject private var transcription = LiveTranscriptionService()
 
     init() {
         let store = LibraryStore()
@@ -16,6 +17,7 @@ struct ZoomRecApp: App {
             ContentView()
                 .environmentObject(store)
                 .environmentObject(capture)
+                .environmentObject(transcription)
                 .frame(minWidth: 960, minHeight: 620)
         }
         .windowResizability(.contentMinSize)
