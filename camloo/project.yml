@@ -1,0 +1,76 @@
+name: camloo
+options:
+  deploymentTarget:
+    macOS: "12.3"
+  bundleIdPrefix: io.lh
+  createIntermediateGroups: true
+  developmentLanguage: ja
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    # ad-hoc 署名（zoomrec と同じ運用）。System Extension は本来正式署名 + 公証、
+    # もしくは `systemextensionsctl developer on` が必要。README 参照。
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+    ENABLE_HARDENED_RUNTIME: YES
+targets:
+  camloo:
+    type: application
+    platform: macOS
+    sources:
+      - path: camloo
+        excludes:
+          - "**/.DS_Store"
+      - path: Shared
+    dependencies:
+      - target: camlooExtension
+        embed: true
+        codeSign: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.lh.camloo
+        PRODUCT_NAME: camloo
+        CODE_SIGN_ENTITLEMENTS: camloo/camloo.entitlements
+        COMBINE_HIDPI_IMAGES: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    info:
+      path: camloo/Info.plist
+      properties:
+        CFBundleDisplayName: camloo
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        NSHighResolutionCapable: true
+        NSPrincipalClass: NSApplication
+        NSCameraUsageDescription: "選択した物理カメラの映像をプレビュー・録画するために使用します。"
+        NSMicrophoneUsageDescription: "録画に音声を含める場合に使用します。"
+        NSSupportsAutomaticTermination: false
+        NSSupportsSuddenTermination: false
+
+  camlooExtension:
+    type: system-extension
+    platform: macOS
+    sources:
+      - path: camlooExtension
+        excludes:
+          - "**/.DS_Store"
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.lh.camloo.Extension
+        PRODUCT_NAME: camlooExtension
+        CODE_SIGN_ENTITLEMENTS: camlooExtension/camlooExtension.entitlements
+        SKIP_INSTALL: YES
+    info:
+      path: camlooExtension/Info.plist
+      properties:
+        CFBundleDisplayName: camloo Camera Extension
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundlePackageType: SYSX
+        CMIOExtension:
+          CMIOExtensionMachServiceName: "$(TeamIdentifierPrefix)io.lh.camloo.Extension"
+        NSSystemExtensionUsageDescription: "仮想カメラを macOS に登録するために使用します。"
